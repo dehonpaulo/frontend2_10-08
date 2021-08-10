@@ -9,7 +9,7 @@ function media(notas){
         console.log(somatorio);
     }
 
-    media = somatorio / notas.length;
+    let media = somatorio / notas.length;
     console.log(media);
 }
 
@@ -22,7 +22,7 @@ function exibirNotas(notas){
         somatorio += notas[i];
     }
 
-    media = somatorio / notas.length;
+    let media = somatorio / notas.length;
 
     console.log(`Média: ${somatorio / notas.length}`);
     if(media < 7){
